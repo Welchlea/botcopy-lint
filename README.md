@@ -2,6 +2,8 @@
 
 A style checker for chatbot messages.
 
+![Terminal output: botcopy-lint flags jargon, blame and long sentences in bot messages, then passes the rewritten messages](docs/demo.png)
+
 It reads the messages a bot sends and flags the ones that are hard to read, blame the user or sound cold. It works like a spell checker for tone and plain English.
 
 ## The problem it solves
