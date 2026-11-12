@@ -1,0 +1,21 @@
+# Bot messages before a content review. Brightwater Pensions is made up.
+messages:
+  welcome: >
+    Hello!!! Welcome to the Brightwater Pensions virtual assistant. Please be
+    advised that I can assist with a range of queries regarding your pension.
+  ask_date_of_birth: >
+    In order to verify your identity prior to proceeding, we require your date
+    of birth, which must be entered in the format day, month and year, as shown
+    on the documentation that was issued to you when you commenced membership.
+  date_error: >
+    Invalid date. You entered the wrong format.
+  fallback: >
+    Sorry, I did not catch that. Apologies. What do you need? Is it about your
+    balance? Or do you want to change your details?
+  payment_delay: >
+    Unfortunately your payment has been delayed. Simply wait 5 working days and
+    it will arrive in due course.
+  warning: >
+    Do NOT share your password with ANYONE. We will NEVER ask for it.
+  more_help: >
+    For additional information about tax, [click here](https://brightwater.example/tax).

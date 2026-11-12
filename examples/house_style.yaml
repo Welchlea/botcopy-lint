@@ -1,0 +1,8 @@
+# An example of changing the defaults for one team.
+reading_grade:
+  max: 8
+message_words:
+  max: 40
+avoid_words:
+  member: customer
+disabled: [exclamation-marks]

@@ -1,0 +1,84 @@
+# The default style guide. Copy this file, change it and pass it with --style.
+
+reading_grade:
+  max: 9            # about age 14 to 15
+  min_words: 12     # very short messages are not scored
+
+sentence_words:
+  max: 25
+
+message_words:
+  max: 60           # a chat bubble, not a letter
+
+questions:
+  max: 1            # ask one thing at a time
+
+# Words to avoid, with the plain word to use.
+# Leave the plain word empty to say "rewrite without it".
+# Start with "tip:" to give advice in place of a plain word.
+avoid_words:
+  utilise: use
+  commence: start
+  terminate: end
+  prior to: before
+  in order to: to
+  assist: help
+  assistance: help
+  purchase: buy
+  require: need
+  additional: more or extra
+  regarding: about
+  in relation to: about
+  with regards to: about
+  facilitate: help
+  endeavour: try
+  ascertain: find out
+  subsequently: then
+  forthwith: now
+  whilst: while
+  kindly: please
+  please be advised:
+  please note:
+  at this time: now
+  in the event that: if
+  in due course: "tip: give a date or a number of days"
+  as per: "tip: say who or what you mean"
+
+# Wording that blames the user or sounds like a machine error.
+blame_phrases:
+  - invalid
+  - you failed
+  - you have failed
+  - you entered the wrong
+  - you did not enter
+  - illegal
+  - bad input
+  - error code
+  - wrong format
+
+# Wording that is cold or minimising when something has gone wrong.
+cold_phrases:
+  - unfortunately
+  - calm down
+  - as i said
+  - as previously stated
+  - you must understand
+  - obviously
+  - simply
+
+# Links should say where they go.
+vague_links:
+  - click here
+  - here
+  - this link
+  - read more
+
+# Acronyms that are allowed in capitals.
+allowed_capitals: [UK, PIN, FAQ, PDF, ISA, HMRC, NHS, GOV]
+
+exclamation_marks:
+  max: 0
+
+# Rules can be switched off by name:
+# disabled: [cold-wording]
+disabled: []

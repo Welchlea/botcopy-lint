@@ -1,0 +1,19 @@
+# The same messages after the review. All pass.
+messages:
+  welcome: >
+    Hello. I can help you with your Brightwater pension.
+  ask_date_of_birth: >
+    I need to check who you are. What is your date of birth? For example,
+    14 3 1975.
+  date_error: >
+    I could not read that date. Enter the day, month and year, like 14 3 1975.
+  fallback: >
+    Sorry, I did not catch that. Is your question about your balance, your
+    details or something else?
+  payment_delay: >
+    Your payment is late and I am sorry. It will be in your account by Friday
+    21 March. You do not need to do anything.
+  warning: >
+    Do not share your password with anyone. We will never ask for it.
+  more_help: >
+    You can read more in our [guide to tax on your pension](https://brightwater.example/tax).
